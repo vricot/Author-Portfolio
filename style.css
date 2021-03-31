@@ -1,0 +1,99 @@
+/* Body, HTML */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Navigation */
+.logo-img {
+    max-width: 300px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+.navbar-brand a {
+    color: red;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+}
+
+/* Carousel Image */
+
+.carousel-img {
+    height: 50vh;
+    opacity: 50%;
+}
+
+/*About*/
+
+.about-section {
+    height: 500px;
+    background-color: white;
+}
+
+.about-img {
+    max-width: 300px;
+}
+
+.about-text {
+    margin-left: 2rem;
+}
+
+/* Sections */
+
+.section-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-subheading {
+    text-align: center;
+}
+
+/* Books */
+.book-section {
+    background-color: white;
+}
+
+.book-img {
+    max-width: 200px;
+}
+
+/* Media Queries */
+
+@media (min-width: 481px) {
+    .logo-img {
+        max-width: 200px;
+    }
+    .about-img {
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 900px) {
+.carousel-img {
+    height: 90vh;
+}
+}
+
