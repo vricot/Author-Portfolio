@@ -1,3 +1,5 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 /* Body, HTML */
 html, body {
     margin: 0;
@@ -48,12 +50,15 @@ body {
 /*About*/
 
 .about-section {
-    height: 500px;
+    margin-top: 2rem;
+    height: fit-content;
     background-color: white;
+    padding: 20px;
+    margin-bottom: 2rem;
 }
 
 .about-img {
-    max-width: 300px;
+    max-width: 80vw;
 }
 
 .about-text {
@@ -61,6 +66,10 @@ body {
 }
 
 /* Sections */
+
+section {
+    padding: 20px;
+}
 
 .section-heading {
     text-align: center;
@@ -73,11 +82,45 @@ body {
 
 /* Books */
 .book-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    height: fit-content;
     background-color: white;
 }
 
 .book-img {
     max-width: 200px;
+}
+
+/* Coming Releases */
+
+.coming-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
+}
+
+/* Blog */
+
+.blog-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
+}
+
+/* Connect */
+
+.connect-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: white;
+    height: fit-content;
 }
 
 /* Media Queries */
@@ -88,11 +131,15 @@ body {
     }
     .about-img {
         margin-left: 2rem;
+        max-width: 40vw;
     }
 }
 
 @media (min-width: 900px) {
 .carousel-img {
+    height: 90vh;
+}
+section {
     height: 90vh;
 }
 }
